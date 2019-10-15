@@ -3,11 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 <h1> Snake by CSIA</h1>
 
-<script src="index.js"></script>
+<div class="wrap">
+    <div id="playground">
+        <p id="playerScore"></p>
+        <canvas id="snake" width="600" height="600"></canvas>
+    </div>
+    <div id="rules">
+        <h2> Comment jouer ?</h2>
+        <p>Il suffit tout simplement d'utiliser les flèches du clavier ! :)</p>
+        <img src="arrow-keys.png" height="150" width="150">
+    </div>
+</div>
+
+<script src="game.js"></script>
 </body>
 </html>
